@@ -42,7 +42,7 @@
 .progress .progress-bar:before{
   content: "";
   width: 100%;
-  border-top: 10px double #f95738;
+  border-top: 10px double #2b2a29;
   border-right: 25px solid #000;
   position: absolute;
   top: 0;
@@ -56,9 +56,9 @@
   top: -32px;
   right: -5px;
 }
-.progress.flask .progress-bar:before{ border-top-color: #ecb82d; }
-.progress.css .progress-bar:before{ border-top-color: #65c168; }
-.progress.bootstrap .progress-bar:before{ border-top-color: #165692; }
+.progress.flask .progress-bar:before{ border-top-color: #2b2a29; }
+.progress.css .progress-bar:before{ border-top-color: #2b2a29; }
+.progress.bootstrap .progress-bar:before{ border-top-color: #2b2a29; }
 @-webkit-keyframes animate-positive{
   0% { width: 0; }
 }

@@ -14,16 +14,16 @@
 
         <!--Grid column-->
         <div class="col-md-12 mb-md-0 mb-12">
-            <form id="contact-form" name="contact-form" action="" method="POST, GET">
-                {{ form.csrf_token }}
+            <form id="contact-form" name="contact-form" action="" method="post, get">
                 <!--Grid row-->
                 <div class="row">
 
                     <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-0 mt-3">
-                            <label>Nome </label>
-                            {{ form.nome(class="form-control", type="text")}}
+                            <label class="form-check-label" for="exampleCheck1">Nome</label>
+                            <input type="text" class="form-control" id="examplename"  placeholder="Digite seu nome">
+
                         </div>
                     </div>
                     <!--Grid column-->
@@ -32,7 +32,7 @@
                     <div class="col-md-6">
                         <div class="md-form mb-0 mt-3">
                             <label>Seu e-mail</label>
-                            {{ form.email(class="form-control", type="e-mail")}}
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                         </div>
                     </div>
                     <!--Grid column-->
@@ -45,7 +45,8 @@
                     <div class="col-md-12">
                         <div class="md-form mb-0 mt-3">
                             <label>Assunto</label>
-                            {{ form.assunto(class="form-control", type="text")}}
+                            <input type="text" class="form-control" id="exampleassunto"  placeholder="Digite o assunto aqui...">
+
                         </div>
                     </div>
                 </div>
@@ -59,7 +60,7 @@
 
                         <div class="md-form">
                             <label>Sua mensagem</label>
-                            {{ form.mensagem(class="form-control", type="text")}}
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite sua mensagem " ></textarea>
                         </div>
 
                     </div>
