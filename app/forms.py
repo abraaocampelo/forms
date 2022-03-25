@@ -1,13 +1,14 @@
-
-from flask_wtf import Form
-from wtforms import StringField, validators
+from app import app
+from flask_wtf import FlaskForm
+from wtforms import StringField, EmailField, TextAreaField, FileField, SubmitField
 from wtforms.validators import DataRequired
+from flask_wtf.csrf import CSRFProtect
 
 
-class LoginForm(Form):
-    nome = StringField("nome", validators=[DataRequired()]) 
-    email = StringField("email", validators=[DataRequired()]) 
-    assunto = StringField("assunto", validators=[DataRequired()]) 
-    mensagem = StringField("assunto", validators=[DataRequired()]) 
-  
 
+class LoginForm(FlaskForm):
+    nome = StringField('nome', validators=[DataRequired()])
+    email = StringField('email', validators=[DataRequired()])
+    assunto = StringField('assunto', validators=[DataRequired()])
+    mensagem = TextAreaField('mensagem', validators=[DataRequired()])
+    submit = SubmitField('Enviar')

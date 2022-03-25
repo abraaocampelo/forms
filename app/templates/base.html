@@ -42,10 +42,18 @@
         </nav>
       </div>
     </header>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <div class="alert alert-success" role="alert">
+        {{messages}}
+      </div>
+    {% endif %}
+    {% endwith %}
 
-  {% block conteudo %}
 
-  {% endblock %}
+    {% block conteudo %}
+
+    {% endblock %}
 
   <footer class="p-4 mt-auto text-white-50">
     <p>Criado por  <a href="https://github.com/valtemirprocopio" class="text-white">Valtemir</a>, by <a href="https://getbootstrap.com/docs/5.1/examples/" class="text-white">Bootstrap Examples</a>.</p>
