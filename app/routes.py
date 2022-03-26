@@ -11,8 +11,7 @@ def index():
 def contato():
     form = LoginForm()
     if form.validate_on_submit():
-        mensagem = flash('A mensagem foi enviada com sucesso. Nome: {}, e-mail: {}, assunto: {} e mensagem:{}'.format(
-            form.nome.data, form.email.data, form.assunto.data, form.mensagem.data))
+        mensagem = flash('A mensagem foi enviada com sucesso.')
         return redirect('/index')
     return render_template('contato.html', form=form)
         

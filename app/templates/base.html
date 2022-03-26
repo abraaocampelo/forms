@@ -43,11 +43,13 @@
       </div>
     </header>
     {% with messages = get_flashed_messages() %}
-    {% if messages %}
-      <div class="alert alert-success" role="alert">
-        {{messages}}
-      </div>
-    {% endif %}
+      {% if messages %}
+        {% for msg in messages %}
+          <div class="alert alert-success" role="alert">
+            {{msg}}
+          </div>
+        {% endfor %}
+      {% endif %}
     {% endwith %}
 
 
