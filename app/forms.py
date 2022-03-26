@@ -8,7 +8,7 @@ from flask_wtf.csrf import CSRFProtect
 
 class LoginForm(FlaskForm):
     nome = StringField('nome', validators=[DataRequired()])
-    email = StringField('email', validators=[DataRequired()])
+    email = EmailField('email', validators=[DataRequired()])
     assunto = StringField('assunto', validators=[DataRequired()])
     mensagem = TextAreaField('mensagem', validators=[DataRequired()])
     submit = SubmitField('Enviar')
