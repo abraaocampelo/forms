@@ -45,7 +45,7 @@ Apaixonado por **front-end**.
 - 🤔 &nbsp; Explorando novas tecnologias e desenvolvendo soluções de software.
 - 🎓 &nbsp; Estudando **Licenciatura em Informática** no <a href="https://portal.ifrn.edu.br/campus/natalzonanorte">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte | Natal - Zona Norte
 </a>.
-- 💼 &nbsp; Trabalhando como **Suporte T.I** na <a href="http://www.educacao.rn.gov.br/">Secretaria de Estado da Educação, da Cultura, do Esporte e do Lazer</a>
+- 💼 &nbsp; Sou **professor** na <a href="http://www.educacao.rn.gov.br/">Senac CEP alecrim</a>
 - 🌱 &nbsp; Aprendendo mais sobre **Framework Flask e python**.
 
 
