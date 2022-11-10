@@ -31,7 +31,7 @@ WTForms==3.0.1<br>
 
 Estudando/trabalhando na **Serviço Nacional de Aprendizagem Comercial – Senac**<br/>
 
-Apaixonado por **front-end** e **front-end**.
+Apaixonado por **front-end** e **back-end**.
 
 
 </p>
