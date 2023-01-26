@@ -37,10 +37,10 @@ height: vh;">
 
            <div class="col-md-3 mt-5 text-center">
             <a class="navbar-brand" href="#">
-               <img src="https://placeholder.pics/svg/80x40" alt="logo do site">
+               <img src="{{url_for('static',filename='img/logo.png')}}" width="100px" alt="logo do site">
             </a>
            </div>
-           <div class="col-md-6 mt-5 text-end">
+           <div class="col-md-6 mt-5 text-center">
                <a href="/index" class="btn btn-sm btn-light btn-outline-dark"> Home></a>
                <a href="/contato" class="btn btn-sm btn-light btn-outline-dark"> Contato></a>
                <a href="/sobre" class="btn btn-sm btn-light btn-outline-dark"> Sobre></a>
@@ -71,8 +71,8 @@ height: vh;">
 
         {% endblock %}
         
-        <footer class="text-center">
-            <p> Criado por <a href="" target="_blank"> Abrão Campelo</a></p>
+        <footer class="text-center text-white p-4 mt-auto fixed-bottom">
+            <p> Criado por <a href="" target="_blank"> Abraão Campelo</a></p>
 
         </footer> 
 
